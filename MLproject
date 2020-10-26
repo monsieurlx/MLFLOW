@@ -1,0 +1,10 @@
+name: Project
+
+conda_env: /home/leo/Python/MLFLOW/conda.yaml
+
+entry_points:
+   main:
+       parameters:
+             estim: {type: int, default: 5}
+             rand: {type: int, default: 5}
+       command: "python Project1-Copy1.py {estim} {rand}"
